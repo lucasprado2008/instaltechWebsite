@@ -26,7 +26,6 @@ The main goal is to provide a clear user journey and encourage contact through W
 - Fixed WhatsApp contact button
 - Service presentation using cards
 - Portfolio section
-- Proposal request form (focused on business contact)
 - Smooth Navigation between sections
 
 ---
