@@ -11,6 +11,10 @@
   font-family: sans-serif;
 }
 
+body.menu-active {
+  overflow: hidden;
+}
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
