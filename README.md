@@ -31,7 +31,6 @@ The main goal is to provide a clear user journey and encourage contact through W
 ---
 
 ## Project Structure
-- /src
 - /assets
 - /icons
 - /images
