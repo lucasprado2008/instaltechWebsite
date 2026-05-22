@@ -1,6 +1,7 @@
 const menuBtn = document.querySelector('.btn-menu');
 const nav = document.querySelector('.nav');
 const overlay = document.querySelector('.overlay');
+const links = document.querySelectorAll('.nav a');
 
 function toggleMenu() {
   nav.classList.toggle('active');
@@ -12,3 +13,5 @@ function toggleMenu() {
     menuBtn.setAttribute('aria-expanded', 'false');
   }
 }
+
+links.forEach(link => link.addEventListener('click', toggleMenu))
