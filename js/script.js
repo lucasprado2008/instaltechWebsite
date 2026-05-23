@@ -1,12 +1,12 @@
+const links = document.querySelectorAll('.nav a');
 const menuBtn = document.querySelector('.btn-menu');
 const nav = document.querySelector('.nav');
 const overlay = document.querySelector('.overlay');
-const links = document.querySelectorAll('.nav a');
 
 function toggleMenu() {
+  document.body.classList.toggle('menu-active')
   nav.classList.toggle('active');
   overlay.classList.toggle('active')
-  document.body.classList.toggle('menu-active')
 
   if (nav.classList.contains('active')) {
     menuBtn.setAttribute('aria-expanded', 'true');
