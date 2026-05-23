@@ -5,10 +5,10 @@
 
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: sans-serif;
 }
 
 body.menu-active {
@@ -16,17 +16,16 @@ body.menu-active {
 }
 
 .overlay {
+  backdrop-filter: blur(4px);
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
-  left: 0;
+  inset: 0;
   opacity: 0;
   pointer-events: none;
   position: fixed;
-  top: 0;
   transition: opacity 0.5s ease;
-  width: 100%;
+  width: 100vw;
   z-index: 105;
-  backdrop-filter: blur(4px);
 }
 
 .overlay.active {
