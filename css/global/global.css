@@ -32,3 +32,11 @@ body.menu-active {
   opacity: 1;
   pointer-events: auto;
 }
+
+.blue-text {
+  color: var(--blue-instaltech);
+}
+
+.red-text {
+  color: var(--red-instaltech);
+}

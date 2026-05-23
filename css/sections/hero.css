@@ -1,13 +1,5 @@
 #hero-nav {
-  scroll-margin-top: 10vh;
-}
-
-.blue-text {
-  color: var(--blue-instaltech);
-}
-
-.red-text {
-  color: var(--red-instaltech);
+  scroll-margin-top: 12vh;
 }
 
 .hero {
@@ -16,8 +8,7 @@
 }
 
 .hero h1 {
-  padding: 10px;
-  padding-bottom: 0;
+  padding: 0 10px;
   font-size: 1.6rem;
   text-align: start;
 }
