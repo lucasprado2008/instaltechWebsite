@@ -1,120 +1,121 @@
 .services {
-    display: block;
+  display: block;
 }
 
 .services h2 {
-    font-size: 1.5rem;
-    padding-left: 10px;
+  font-size: 1.5rem;
+  padding-left: 10px;
 }
 
 .services p {
-    font-size: 1.2rem;
-    padding: 10px;
+  font-size: 1.2rem;
+  padding: 10px;
 }
 
 .services h3 {
-    font-size: 1.3rem;
-    padding: 10px;
-    text-align: center;
+  font-size: 1.3rem;
+  padding: 10px;
+  text-align: center;
 }
 
 .card-services {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    margin-top: 20px;
-    min-width: 0;
-    width: 90%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-width: 0;
+  width: 90%;
 }
 
 .card-services .card-services-title {
-    font-size: 1.2rem;
-    padding: 10px 0;
-    text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  text-align: center;
 }
 
 .card-services .subtitle-services {
-    font-size: 1rem;
-    padding-bottom: 0;
-    padding: 0 10px;
-    text-align: center;
+  font-size: 1rem;
+  padding-bottom: 0;
+  padding: 0 10px;
+  text-align: center;
 }
 
 .card-services ul {
-    list-style: none;
-    padding: 0 10px;
+  list-style: none;
+  padding: 0 10px;
 }
 
 .card-services li::before {
-    background-color: var(--blue-instaltech);
-    border-radius: 90px;
-    color: #ffffff;
-    content: '✔';
-    margin: 2px;
-    padding: 2px 4px;
+  background-color: var(--blue-instaltech);
+  border-radius: 90px;
+  color: #ffffff;
+  content: "✔";
+  margin: 2px;
+  padding: 2px 4px;
 }
 
 .card-services li {
-    display: list-item;
-    margin: 5px 0;
-    text-align: start;
+  display: list-item;
+  margin: 5px 0;
+  text-align: start;
 }
 
 .card-services img {
-    display: block;
-    height: 100%;
-    width: 100%;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .card-services div {
-    border-bottom: 1px solid;
-    width: 100%;
+  border-bottom: 1px solid;
+  width: 100%;
 }
 
 .card-services div:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .characteristics-div-title .characteristics-h3 {
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 15px;
-    padding-bottom: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 15px;
+  padding-bottom: 0;
 }
 
 .services-characteristics {
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 90%;
-    border-bottom: 1px solid #0000004d;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 90%;
+  border-bottom: 1px solid #0000004d;
 }
 
 .characteristics-title {
-    font-size: 1.2rem;
-    font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .services-characteristics .characteristics-text {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .div-contact {
-    border-radius: 5px;
-    margin: 0 auto;
-    margin-top: 25px;
-    width: 90%;
-    border: 1px solid #0c548c;
-    padding: 15px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 90%;
+  border: 1px solid #0c548c;
+  padding: 15px;
 }
 
-.services-contact-title {
-    text-align: center;
+.services .services-contact-title {
+  text-align: center;
+  padding: 0px 5px ;
 }
 
 .div-contact .services-contact-text {
-    padding: 10px 25px;
-    text-align: start;
+  padding: 10px 5px;
+  text-align: start;
 }
 
 .services-btn {
@@ -131,4 +132,21 @@
   text-decoration: none;
   color: #000000;
   width: 80%;
+}
+
+.title-svg-container{
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.instaltech-worker {
+  width: 25%;
+  height: auto;
+}
+
+.services-contact-title {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
