@@ -1,0 +1,165 @@
+.portfolio-title {
+  position: relative;
+  font-size: 1.5rem;
+  padding: 15px 10px 0px 10px;
+}
+
+.portfolio-title::after {
+  content: "";
+  position: absolute;
+
+  left: 10px;
+  bottom: -2px;
+
+  width: 75%;
+  height: 2px;
+  background-color: var(--red-instaltech);
+}
+
+.portfolio-subtitle {
+  color: rgb(34, 34, 34);
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+.portfolio-card-title {
+  color: rgb(45, 45, 45);
+  font-size: 1.1rem;
+  padding: 5px 15px 0px 15px;
+}
+
+.portfolio-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0px;
+  margin: 20px;
+}
+
+.portfolio-card header {
+  z-index: 0;
+}
+
+.portfolio-card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 4 / span 4;
+}
+
+.portfolio-card2 {
+  grid-column: span 4 / span 4;
+  grid-row: span 2 / span 2;
+  grid-row-start: 2;
+}
+
+.portfolio-card3 {
+  grid-column: span 2 / span 2;
+  grid-row-start: 4;
+}
+
+.portfolio-card4 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+.portfolio-card {
+  border: 1px solid;
+}
+
+.portfolio-card1 {
+  color: #ffffff;
+  display: flex;
+}
+
+.portfolio-card-svg {
+  width: 20%;
+  height: 20%;
+}
+
+.blue-border {
+  border-top: 1px solid var(--blue-instaltech);
+  border-bottom: 1px solid var(--blue-instaltech);
+}
+
+.blue-border-right {
+  border-right: 1px solid var(--blue-instaltech);
+}
+
+.red-border {
+  border-top: 1px solid var(--red-instaltech);
+  border-bottom: 1px solid var(--red-instaltech);
+}
+
+.red-border-right {
+  border-right: 1px solid var(--red-instaltech);
+}
+
+.portfolio-title-svg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 5px;
+}
+
+.title-container h3 {
+  font-size: 1.3rem;
+}
+
+.subtitle-svg {
+  text-align: center;
+  display: inline-block;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.portfolio-final-title {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 15px;
+}
+
+.portfolio-card-services {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: solid 1px var(--blue-instaltech);
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.portfolio-card-services-img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-card-services-svg {
+  width: 15%;
+  height: 15%;
+}
+
+.portfolio-card-services-text {
+  font-size: 1.2rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.portfolio-services-svg-container {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding: 10px 0;
+}
