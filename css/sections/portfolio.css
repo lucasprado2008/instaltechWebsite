@@ -73,11 +73,6 @@
   display: flex;
 }
 
-.portfolio-card-svg {
-  width: 20%;
-  height: 20%;
-}
-
 .blue-border {
   border-top: 1px solid var(--blue-instaltech);
   border-bottom: 1px solid var(--blue-instaltech);
@@ -146,8 +141,8 @@
 }
 
 .portfolio-card-services-svg {
-  width: 15%;
-  height: 15%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .portfolio-card-services-text {

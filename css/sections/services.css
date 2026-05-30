@@ -80,8 +80,8 @@
 
 .card-services-header .services-svg {
   margin: 0 auto;
-  width: 20%;
-  height: 20%;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .card-services div:last-child {
@@ -153,8 +153,8 @@
 }
 
 .instaltech-worker {
-  width: 25%;
-  height: auto;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .services-contact-title {
