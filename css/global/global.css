@@ -40,3 +40,15 @@ body.menu-active {
 .red-text {
   color: var(--red-instaltech);
 }
+
+.electric {
+  background-color: #0020af;
+}
+
+.hydraulic {
+  background-color: var(--blue-instaltech);
+}
+
+.fire-protection {
+  background-color: var(--red-instaltech);
+}
