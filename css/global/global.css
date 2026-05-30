@@ -11,6 +11,10 @@
   scroll-behavior: smooth;
 }
 
+.scroll-section {
+  scroll-margin-top: 12vh;
+}
+
 body.menu-active {
   overflow: hidden;
 }
