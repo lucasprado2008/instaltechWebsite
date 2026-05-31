@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 64 64"
+   stroke-width="3"
+   stroke="#000000"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="instaltech-group-icon.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.03625"
+     inkscape:cx="399.51749"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <path
+     id="circle1"
+     style="stroke-width:2.848;stroke-dasharray:none;stroke:#002cd7;stroke-opacity:1"
+     d="M 15.54 17.14 A 5.5700002 5.5700002 0 0 0 9.97 22.71 A 5.5700002 5.5700002 0 0 0 15.54 28.28 A 5.5700002 5.5700002 0 0 0 21.11 22.71 A 5.5700002 5.5700002 0 0 0 15.54 17.14 z M 31.89 17.14 A 5.5700002 5.5700002 0 0 0 26.32 22.71 A 5.5700002 5.5700002 0 0 0 31.89 28.28 A 5.5700002 5.5700002 0 0 0 37.46 22.71 A 5.5700002 5.5700002 0 0 0 31.89 17.14 z M 48.46 17.14 A 5.5700002 5.5700002 0 0 0 42.89 22.71 A 5.5700002 5.5700002 0 0 0 48.46 28.28 A 5.5700002 5.5700002 0 0 0 54.03 22.71 A 5.5700002 5.5700002 0 0 0 48.46 17.14 z M 31.89 32.47 A 11.27 11.27 0 0 0 20.62 43.74 L 43.16 43.74 A 11.28 11.28 0 0 0 31.89 32.47 z " />
+  <path
+     d="M46.87,43.74H59.73A11.27,11.27,0,0,0,48.46,32.47h0a11.24,11.24,0,0,0-5.29,1.32"
+     id="path2"
+     style="stroke-width:2.848;stroke-dasharray:none;stroke:#002cd7;stroke-opacity:1" />
+  <path
+     d="M17.13,43.74H4.27A11.27,11.27,0,0,1,15.54,32.47h0a11.24,11.24,0,0,1,5.29,1.32"
+     id="path3"
+     style="stroke-width:2.848;stroke-dasharray:none;stroke:#002cd7;stroke-opacity:1" />
+</svg>
