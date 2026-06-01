@@ -1,6 +1,6 @@
 :root {
-  --blue-instaltech: #0c548c;
-  --red-instaltech: #df3d36;
+  --blue-instaltech: rgb(12, 84, 140);
+  --red-instaltech: rgb(190, 40, 40);
 }
 
 * {
@@ -39,10 +39,12 @@ body.menu-active {
 
 .blue-text {
   color: var(--blue-instaltech);
+  font-weight: 600;
 }
 
 .red-text {
   color: var(--red-instaltech);
+  font-weight: 600;
 }
 
 .electric {
