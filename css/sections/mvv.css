@@ -1,0 +1,78 @@
+.mvv-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 25px 0;
+}
+
+.mvv-elements {
+  margin: 10px 10px 25px 20px;
+  padding: 10px 0px;
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+
+.mvv-elements-svg {
+  margin-top: 15px;
+  width: 4rem;
+  height: 4rem;
+}
+
+.mvv-element-content {
+  border-left: 1px solid #000;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.mvv-element-title {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: blue;
+}
+
+.mvv-element-content p {
+  line-height: 1.3;
+}
+
+.mvv-values-title {
+  text-align: center;
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 40px 0px 15px 0px;
+}
+
+.mvv-values {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 25px 20px;
+  padding: 0px 10px;
+  border-bottom: 1px solid #000;
+  min-height: 160px;
+}
+
+.mvv-values-element {
+  margin: 10px;
+  display: flex;
+}
+
+.mvv-values-svg {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.mvv-values-element-text {
+  border-left: 1px solid #000;
+  line-height: 1.3;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.mvv-values-element-title {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
