@@ -1,0 +1,95 @@
+.history-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.history-text {
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  word-spacing: 0.3em;
+  margin: 15px 0px 15px 0px;
+  text-align: start;
+}
+
+.history-text span {
+  font-weight: bold;
+}
+
+.history-catchphrase {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.history-img {
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.history-start {
+  border: 2px solid transparent;
+  border-radius: 16px;
+
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, var(--red-instaltech), var(--blue-instaltech)) border-box;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.history-start-img {
+  width: 3rem;
+  max-width: 3rem;
+}
+
+.history-start-content {
+  padding: 0 10px;
+}
+
+.history-start-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.history-start-text span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.red-text.history-start-year {
+  font-size: 1.6rem;
+}
+
+.history-elements {
+  margin: 25px 10px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.history-elements-img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.history-element-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.history-element-content p {
+  line-height: 1.3;
+}
+
+.history-element-title {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
