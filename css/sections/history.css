@@ -6,7 +6,7 @@
 
 .history-text {
   padding: 10px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   word-spacing: 0.3em;
   margin: 15px 0px 15px 0px;
@@ -32,7 +32,6 @@
 .history-start {
   border: 2px solid transparent;
   border-radius: 16px;
-
   background:
     linear-gradient(white, white) padding-box,
     linear-gradient(90deg, var(--red-instaltech), var(--blue-instaltech)) border-box;
@@ -53,12 +52,13 @@
 }
 
 .history-start-text {
+  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
 }
 
 .history-start-text span {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
@@ -82,6 +82,10 @@
   display: flex;
   flex-direction: column;
   margin-left: 10px;
+}
+
+.history-element-text {
+  font-size: 1.1rem;
 }
 
 .history-element-content p {
