@@ -25,21 +25,28 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.03625"
-     inkscape:cx="399.51749"
-     inkscape:cy="400"
+     inkscape:zoom="0.518125"
+     inkscape:cx="517.2497"
+     inkscape:cy="744.02895"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1" />
+  <ellipse
+     style="fill:#002cd7;fill-opacity:1;stroke:#002cd7;stroke-width:0.0548452;stroke-dasharray:none;stroke-opacity:1"
+     id="path2"
+     cx="12"
+     cy="12"
+     rx="11.731585"
+     ry="11.731583" />
   <path
-     d="M3 8L10.8906 13.2604C11.5624 13.7083 12.4376 13.7083 13.1094 13.2604L21 8M5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19Z"
+     d="M 5.3449941,9.0422193 11.17966,12.931997 c 0.496759,0.331197 1.143921,0.331197 1.640681,0 L 18.655006,9.0422193 M 6.8238843,17.176116 H 17.176116 c 0.816791,0 1.47889,-0.662099 1.47889,-1.478891 V 8.3027742 c 0,-0.8167689 -0.662099,-1.4788903 -1.47889,-1.4788903 H 6.8238843 c -0.8167689,0 -1.4788902,0.6621214 -1.4788902,1.4788903 v 7.3944508 c 0,0.816792 0.6621214,1.478891 1.4788902,1.478891 z"
      stroke="#000000"
-     stroke-width="2"
+     stroke-width="1.47889"
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path1"
-     style="stroke:#002cd7;stroke-opacity:1" />
+     style="stroke:#ffffff;stroke-opacity:1" />
 </svg>
