@@ -1,15 +1,11 @@
 .services {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .services h2 {
   font-size: 1.5rem;
   padding-left: 10px;
-}
-
-.services p {
-  font-size: 1.2rem;
-  padding: 10px;
 }
 
 .services h3 {
@@ -18,7 +14,7 @@
   text-align: center;
 }
 
-.card-services {
+.services-card {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -28,25 +24,44 @@
   width: 90%;
 }
 
-.card-services .card-services-title {
+.services-card header {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.services-card-svg {
+  height: var(--svg-size);
+  margin: 0 auto;
+  width: var(--svg-size);
+}
+
+.services-card h4 {
   font-size: 1.2rem;
   padding: 10px 0;
   text-align: center;
 }
 
-.card-services .subtitle-services {
+.services-subtitle {
+  color: rgb(255, 255, 255);
   font-size: 1rem;
-  padding-bottom: 0;
   padding: 0 10px;
   text-align: center;
 }
 
-.card-services ul {
+.services-card div,
+.services-card header {
+  border-bottom: 1px solid #0000009f;
+  width: 100%;
+}
+
+.services-card ul {
   list-style: none;
   padding: 0 10px;
 }
 
-.card-services li::before {
+.services-card li::before {
   background-color: var(--blue-instaltech);
   border-radius: 90px;
   color: #ffffff;
@@ -55,53 +70,37 @@
   padding: 2px 4px;
 }
 
-.card-services li {
+.services-card li {
   display: list-item;
   margin: 5px 0;
   text-align: start;
 }
 
-.card-services img {
-  display: block;
-  height: 100%;
+.services-card-img {
+  height: auto;
+  margin-bottom: -4px;
   width: 100%;
 }
 
-.card-services div {
-  border-bottom: 1px solid;
-  width: 100%;
-}
-
-.card-services header {
-  padding: 10px;
-  border-bottom: 1px solid;
-  color: #ffffff;
-}
-
-.card-services-header .services-svg {
-  margin: 0 auto;
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.card-services div:last-child {
-  border-bottom: none;
-}
-
-.characteristics-div-title .characteristics-h3 {
-  text-align: center;
+.services-characteristics-title {
   font-size: 1.2rem;
-  padding: 15px;
   padding-bottom: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+.services-characteristics-title h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .services-characteristics {
-  display: flex;
   align-items: center;
+  border-bottom: 1px solid #0000004d;
+  display: flex;
   margin: 0 auto;
   margin-top: 10px;
   width: 90%;
-  border-bottom: 1px solid #0000004d;
 }
 
 .services-characteristics-img {
@@ -114,67 +113,54 @@
   flex-direction: column;
 }
 
-.characteristics-title, .characteristics-text {
-  margin: 0;
+.services-characteristics-content:last-child {
+  margin-bottom: 15px;
 }
 
-.characteristics-title {
-  font-size: 1.2rem;
-  font-weight: 700;
+.services-characteristics-content h4 {
+  color: rgb(64, 75, 121);
+  font-size: 1.1rem;
+  padding: 10px;
 }
 
-.services-characteristics .characteristics-text {
+.services-characteristics p {
   padding-top: 0;
 }
 
-.div-contact {
+.services-contact {
   border-radius: 5px;
-  margin: 0 auto;
-  margin-top: 25px;
-  width: 90%;
   border: 1px solid #0c548c;
+  margin: 0 auto;
   padding: 15px;
+  width: 90%;
 }
 
-.services .services-contact-title {
-  text-align: center;
+.services-title-svg-container {
+  align-items: center;
+  display: flex;
+  gap: 0;
+}
+
+.services-title-svg-container img {
+  height: var(--svg-size);
+  width: var(--svg-size);
+}
+
+.services-contact-title {
+  max-width: 100%;
+  overflow-wrap: break-word;
   padding: 0px 5px;
+  text-align: center;
+  word-wrap: break-word;
 }
 
-.div-contact .services-contact-text {
+.services-contact-text {
   padding: 10px 5px;
   text-align: start;
 }
 
 .services-btn {
-  background:
-    linear-gradient(white, white) padding-box,
-    linear-gradient(135deg, #0c548c, #df3d36) border-box;
-  border: 2px solid transparent;
-  border-radius: 8px;
   display: block;
   margin: 0 auto;
   margin-top: 10px;
-  font-size: 1.1rem;
-  text-align: center;
-  text-decoration: none;
-  color: #000000;
-  width: 80%;
-}
-
-.services-title-svg-container{
-  display: flex;
-  align-items: center;
-  gap: 0;
-}
-
-.instaltech-worker {
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.services-contact-title {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
 }

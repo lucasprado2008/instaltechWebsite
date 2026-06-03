@@ -6,22 +6,35 @@
     <title>Instaltech | Serviços Elétricos e Hidráulicos em São Paulo</title>
     <meta
       name="description"
-      content="Serviços profissionais de instalação elétrica e hidráulica. Orçamento via WhatsApp."
+      content="Serviços profissionais de instalação elétrica, hidráulica e combate a incêndio. Orçamento via WhatsApp."
     />
 
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:image:alt" content="" />
+    <meta
+      property="og:title"
+      content="Instaltech | Serviços Elétricos e Hidráulicos em São Paulo"
+    />
+    <meta
+      property="og:description"
+      content="Serviços profissionais de instalação elétrica, hidráulica e combate a incêndio. Orçamento via WhatsApp."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.instaltechbr.com" />
+    <meta
+      property="og:image"
+      content="https://www.instaltechbr.com/assets/images/ogimage.png"
+    />
+    <meta
+      property="og:image:alt"
+      content="Instaltech | Serviços Elétricos e Hidráulicos em São Paulo"
+    />
 
-    <link rel="canonical" href="" />
+    <link rel="canonical" href="https://www.instaltechbr.com" />
 
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="icon" href="assets/icons/" sizes="any" />
-    <link rel="icon" href="assets/icons/" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="assets/icons/" />
+    <link rel="icon" href="assets/icons/favicon.ico" sizes="any" />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
 
     <meta name="theme-color" content="#0c548c" />
     <meta
@@ -40,17 +53,11 @@
 
   <body>
     <header class="main-header">
-      <div class="logo-div">
-        <a href="/">
-          <img
-            class="logo-img"
-            src="assets/icons/logoInstaltech.svg"
-            alt="Logo Instaltech"
-          />
-        </a>
-        <p>SOLUÇÕES INTELIGENTES.</p>
-        <p>SEGURANÇA QUE CONECTA.</p>
-      </div>
+      <a href="/">
+        <img src="assets/icons/logoInstaltech.svg" alt="Logo Instaltech" />
+      </a>
+      <p>SOLUÇÕES INTELIGENTES.</p>
+      <p>SEGURANÇA QUE CONECTA.</p>
     </header>
 
     <button
@@ -65,7 +72,7 @@
 
     <div class="overlay" onclick="toggleMenu()"></div>
 
-    <nav class="nav">
+    <nav class="nav" id="menu">
       <ul>
         <li><a href="#hero-nav">Início</a></li>
         <li><a href="#services-nav">Serviços</a></li>
@@ -79,7 +86,7 @@
             >Enviar E-mail</a
           >
         </li>
-        <li class="menu-whatsapp">
+        <li>
           <a
             href="https://wa.me/5511986850965?text=Olá!%20Visitei%20o%20site%20da%20InstalTech%20e%20gostaria%20de%20solicitar%20um%20orçamento."
             target="_blank"
@@ -105,18 +112,25 @@
           e conforme as normas.
         </p>
 
-        <a class="hero-btn" aria-label="Botão do WhatsApp" href="">
+        <a
+          class="btn-gradient"
+          aria-label="Botão do WhatsApp"
+          href="https://wa.me/5511986850965?text=Olá!%20Visitei%20o%20site%20da%20InstalTech%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Conheça nossas soluções <span class="red-text">➝</span>
         </a>
 
         <article class="card card-blue">
           <img
+            class="card-img"
             src="assets/images/instaltech-placeholder.png"
             alt="Imagem card hero elétrica"
           />
           <div class="card-content">
             <img
-              class="card-icon"
+              class="card-content-svg"
               src="assets/icons/instaltech-eletric-icon.svg"
               alt="Ícone de raio"
             />
@@ -130,13 +144,14 @@
 
         <article class="card card-red">
           <img
+            class="card-img"
             src="assets/images/instaltech-placeholder.png"
             alt="Imagem card hero hidráulica"
           />
 
           <div class="card-content">
             <img
-              class="card-icon"
+              class="card-content-svg"
               src="assets/icons/instaltech-waterdrop-icon.svg"
               alt="Ícone de água"
             />
@@ -150,13 +165,14 @@
 
         <article class="card card-blue">
           <img
+            class="card-img"
             src="assets/images/instaltech-placeholder.png"
             alt="Imagem card hero combate a incêndio"
           />
 
           <div class="card-content">
             <img
-              class="card-icon"
+              class="card-content-svg"
               src="assets/icons/instaltech-fire-icon.svg"
               alt="Ícone de fogo"
             />
@@ -180,21 +196,21 @@
 
         <h3>Conheça nossos principais serviços</h3>
 
-        <article class="card-services card-blue">
-          <header class="card-services-header electric">
+        <article class="services-card card-blue">
+          <header class="services-card-header electric">
             <img
-              class="services-svg"
+              class="services-card-svg"
               src="assets/icons/instaltech-eletric-icon.svg"
               alt="Ícone de elétrica"
             />
-            <h3 class="card-services-title">Elétrica</h3>
-            <p class="subtitle-services">
+            <h4>Elétrica</h4>
+            <p class="services-subtitle">
               Instalações elétricas seguras, eficientes e em conformidade com as
               normas.
             </p>
           </header>
 
-          <div class="card-services-content">
+          <div>
             <ul>
               <li>
                 Instalações elétricas residenciais, comerciais e industriais.
@@ -211,28 +227,28 @@
 
           <figure>
             <img
-              class="services-img"
+              class="services-card-img"
               src="assets/images/instaltech-placeholder.png"
               alt=""
             />
           </figure>
         </article>
 
-        <article class="card-services card-red">
-          <header class="card-services-header hydraulic">
+        <article class="services-card card-red">
+          <header class="services-card-header hydraulic">
             <img
-              class="services-svg"
+              class="services-card-svg"
               src="assets/icons/instaltech-waterdrop-icon.svg"
               alt="Ícone de água"
             />
-            <h3 class="card-services-title">Hidráulica</h3>
-            <p class="subtitle-services">
+            <h4>Hidráulica</h4>
+            <p class="services-subtitle">
               Soluções hidráulicas com qualidade, durabilidade e respeito às
               normas técnicas.
             </p>
           </header>
 
-          <div class="card-services-content">
+          <div>
             <ul>
               <li>Instalações hidráulicas prediais.</li>
               <li>Sistemas de água fria e quente.</li>
@@ -245,28 +261,28 @@
 
           <figure>
             <img
-              class="services-img"
+              class="services-card-img"
               src="assets/images/instaltech-placeholder.png"
               alt=""
             />
           </figure>
         </article>
 
-        <article class="card-services card-blue">
-          <header class="card-services-header fire-protection">
+        <article class="services-card card-blue">
+          <header class="services-card-header fire-protection">
             <img
-              class="services-svg"
+              class="services-card-svg"
               src="assets/icons/instaltech-fire-icon.svg"
               alt="Ícone de combate a incêndio"
             />
-            <h3 class="card-services-title">Combate a incêndio</h3>
-            <p class="subtitle-services">
+            <h4>Combate a incêndio</h4>
+            <p class="services-subtitle">
               Sistemas de prevenção e combate a incêndios para proteger vidas e
               patrimônios.
             </p>
           </header>
 
-          <div class="card-services-content">
+          <div>
             <ul>
               <li>Projeto e execução de sistemas de combate a incêndio.</li>
               <li>Hidrantes e mangotinhos.</li>
@@ -280,15 +296,15 @@
 
           <figure>
             <img
-              class="services-img"
+              class="services-card-img"
               src="assets/images/instaltech-placeholder.png"
               alt=""
             />
           </figure>
         </article>
 
-        <div class="characteristics-div-title">
-          <h3 class="characteristics-h3">
+        <div class="services-characteristics-title">
+          <h3>
             Características da <span class="blue-text">Instal</span
             ><span class="red-text">tech</span>
           </h3>
@@ -301,8 +317,8 @@
             alt="Ícone de segurança"
           />
           <div class="services-characteristics-content">
-            <p class="characteristics-title">Soluções Integradas</p>
-            <p class="characteristics-text">
+            <h4>Soluções Integradas</h4>
+            <p>
               Integração entre elétrica, hidráulica e incêndios para mais
               eficiência e segurança.
             </p>
@@ -316,8 +332,8 @@
             alt="Ícone de equipe"
           />
           <div class="services-characteristics-content">
-            <p class="characteristics-title">Equipe Especializada</p>
-            <p class="characteristics-text">
+            <h4>Equipe Especializada</h4>
+            <p>
               Profissionais qualificados e treinados para entregar o melhor
               resultado.
             </p>
@@ -331,8 +347,8 @@
             alt="Ícone de prancheta"
           />
           <div class="services-characteristics-content">
-            <p class="characteristics-title">Normas e Conformidade</p>
-            <p class="characteristics-text">
+            <h4>Normas e Conformidade</h4>
+            <p>
               Atuamos conforme as normas técnicas e regulamentações vigentes.
             </p>
           </div>
@@ -344,19 +360,18 @@
             src="assets/icons/instaltech-communication-icon.svg"
             alt="Ícone de comunicação"
           />
-          <div>
-            <p class="characteristics-title">Suporte e Manutenção</p>
-            <p class="characteristics-text">
+          <div class="services-characteristics-content">
+            <h4>Suporte e Manutenção</h4>
+            <p>
               Acompanhamento contínuo para garantir o desempenho e a segurança
               das instalações.
             </p>
           </div>
         </div>
 
-        <div class="div-contact">
+        <div class="services-contact">
           <div class="services-title-svg-container">
             <img
-              class="instaltech-worker"
               src="assets/icons/instaltech-worker-icon.svg"
               alt="Ícone de trabalhador"
             />
@@ -368,7 +383,11 @@
             Fale com a nossa equipe e encontre a melhor solução para o seu
             projeto.
           </p>
-          <a class="btn-instaltech services-btn" href=""
+          <a
+            class="btn-gradient services-btn"
+            href="https://wa.me/5511986850965?text=Olá!%20Visitei%20o%20site%20da%20InstalTech%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+            target="_blank"
+            rel="noopener noreferrer"
             >Fale conosco <span class="red-text">➝</span></a
           >
         </div>
