@@ -15,4 +15,6 @@ function toggleMenu() {
   }
 }
 
-links.forEach(link => link.addEventListener('click', toggleMenu))
+links.forEach(link => link.addEventListener('click', toggleMenu));
+document.querySelector('.btn-menu').addEventListener('click', toggleMenu);
+document.querySelector('.overlay').addEventListener('click', toggleMenu);

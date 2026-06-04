@@ -10,7 +10,6 @@
 
 .nav {
   background-color: rgb(68, 127, 156);
-  gap: var(--medium-gap);
   height: 100vh;
   padding: 80px 10px 0px 10px;
   position: fixed;

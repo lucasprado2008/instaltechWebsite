@@ -1,14 +1,15 @@
 :root {
-  --blue-instaltech: rgb(12, 84, 140);
-  --red-instaltech: rgb(190, 40, 40);
   --blue-eletric: rgb(0, 32, 175);
-  --text-color: rgb(40, 40, 40);
-  --small-gap: 0.5rem;
-  --medium-gap: 1rem;
+  --blue-instaltech: rgb(12, 84, 140);
   --large-gap: 2rem;
-  --svg-size: 2.5rem;
-  --svg-medium-size: 3rem;
+  --medium-gap: 1rem;
+  --red-instaltech: rgb(190, 40, 40);
+  --small-gap: 0.5rem;
   --svg-large-size: 4rem;
+  --svg-medium-size: 3rem;
+  --svg-size: 2.5rem;
+  --svg-small-size: 1.5rem;
+  --text-color: rgb(40, 40, 40);
 }
 
 * {
@@ -46,30 +47,39 @@ body.menu-active {
 }
 
 h1 {
-  padding: 0 10px;
   font-size: 1.6rem;
+  padding: 0 10px;
   text-align: start;
 }
 
 .btn-gradient {
+  align-self: center;
   background:
     linear-gradient(white, white) padding-box,
     linear-gradient(135deg, #0c548c, #df3d36) border-box;
-  border: 2px solid transparent;
   border-radius: 8px;
-  margin: 15px;
-  font-size: 1.1rem;
-  text-align: center;
-  align-self: center;
-  text-decoration: none;
+  border: 2px solid transparent;
   color: #000000;
+  font-size: 1.1rem;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
   width: 80%;
 }
 
 p {
-  padding: 10px;
-  font-size: 1.2rem;
   color: var(--text-color);
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.card-blue {
+  border: 1px solid var(--blue-instaltech);
+}
+
+.card-red {
+  border: 1px solid var(--red-instaltech);
 }
 
 .blue-text {

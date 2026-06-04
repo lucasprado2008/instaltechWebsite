@@ -7,14 +7,14 @@
 }
 
 .main-header img {
-  width: 100%;
-  max-width: 200px;
   height: auto;
+  max-width: 200px;
+  width: 100%;
 }
 
 .main-header p {
   color: rgb(0, 0, 0);
   font-size: 0.9rem;
-  padding: 0;
   padding-top: 2px;
+  padding: 0;
 }

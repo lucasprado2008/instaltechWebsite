@@ -1,50 +1,52 @@
-.history-title {
+.history h2 {
   font-size: 1.5rem;
-  text-align: center;
   margin-top: 25px;
+  text-align: center;
 }
 
 .history-text {
-  padding: 10px;
   font-size: 1.2rem;
   line-height: 1.6;
+  margin: 15px 0;
+  padding: 10px 25px;
+  text-align: left;
   word-spacing: 0.3em;
-  margin: 15px 0px 15px 0px;
-  text-align: start;
-}
-
-.history-text span {
-  font-weight: bold;
 }
 
 .history-catchphrase {
-  font-weight: bold;
-  padding: 10px;
   font-size: 1rem;
-  text-align: center;
+  font-weight: bold;
   margin-top: 20px;
+  padding: 10px;
+  text-align: center;
 }
 
 .history-img {
   clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  display: flex;
+  height: auto;
+  margin: 15px auto;
+  width: 60%;
 }
 
 .history-start {
-  border: 2px solid transparent;
-  border-radius: 16px;
+  align-items: flex-start;
   background:
     linear-gradient(white, white) padding-box,
-    linear-gradient(90deg, var(--red-instaltech), var(--blue-instaltech)) border-box;
-  margin: 10px;
-  padding: 10px;
+    linear-gradient(90deg, var(--red-instaltech), var(--blue-instaltech))
+      border-box;
+  border-radius: 16px;
+  border: 2px solid transparent;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  margin: 10px;
+  padding: 10px;
 }
 
 .history-start-img {
-  width: 3rem;
+  margin-top: 10px;
   max-width: 3rem;
+  width: 3rem;
 }
 
 .history-start-content {
@@ -52,14 +54,9 @@
 }
 
 .history-start-text {
-  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
-}
-
-.history-start-text span {
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .red-text.history-start-year {
@@ -67,15 +64,16 @@
 }
 
 .history-elements {
-  margin: 25px 10px;
-  display: flex;
   align-items: start;
+  display: flex;
   justify-content: center;
+  margin: 25px 10px;
 }
 
-.history-elements-img {
-  width: 2.5rem;
-  height: 2.5rem;
+.history-elements-svg {
+  height: var(--svg-size);
+  margin: 15px 0 0 10px;
+  width: var(--svg-size);
 }
 
 .history-element-content {
@@ -84,11 +82,8 @@
   margin-left: 10px;
 }
 
-.history-element-text {
-  font-size: 1.1rem;
-}
-
 .history-element-content p {
+  font-size: 1.1rem;
   line-height: 1.3;
 }
 

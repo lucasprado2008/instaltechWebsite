@@ -103,9 +103,9 @@
   width: 90%;
 }
 
-.services-characteristics-img {
-  width: 3rem;
-  height: 3rem;
+.services-characteristics-svg {
+  width: var(--svg-medium-size);
+  height: var(--svg-medium-size);
 }
 
 .services-characteristics-content {
