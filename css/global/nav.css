@@ -10,7 +10,7 @@
 
 .nav {
   background-color: rgb(68, 127, 156);
-  height: 100vh;
+  height: 100dvh;
   padding: 80px 10px 0px 10px;
   position: fixed;
   right: 0;
@@ -42,6 +42,78 @@
   color: rgb(22, 22, 22);
 }
 
+.mvv-short {
+  display: none;
+}
+
 .menu-email {
   margin-top: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btn-menu {
+    display: none;
+  }
+
+  .nav {
+    background-color: transparent;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    transform: none;
+    padding: 30px 5px;
+    width: auto;
+  }
+
+  .nav ul {
+    flex-direction: row;
+  }
+
+  .nav li {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .nav li::after {
+    background: var(--blue-instaltech);
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 10%;
+    position: absolute;
+    transition: width 0.25s ease;
+    width: 0%;
+  }
+
+  .nav li:hover {
+    transform: scale(1.2);
+  }
+
+  .nav li:hover::after {
+    width: 80%;
+  }
+
+  .nav a {
+    text-decoration: none;
+    padding: 0 15px;
+  }
+
+  .mvv-full {
+    display: none;
+  }
+
+  .mvv-short {
+    display: inline;
+  }
+
+  .menu-email {
+    display: none;
+  }
 }

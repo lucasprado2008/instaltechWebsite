@@ -1,6 +1,7 @@
 :root {
   --blue-eletric: rgb(0, 32, 175);
   --blue-instaltech: rgb(12, 84, 140);
+  --header-height: 93px;
   --large-gap: 2rem;
   --medium-gap: 1rem;
   --red-instaltech: rgb(190, 40, 40);
@@ -17,11 +18,11 @@
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
-.scroll-section {
-  scroll-margin-top: 12vh;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--header-height);
 }
 
 body.menu-active {
@@ -44,12 +45,6 @@ body.menu-active {
 .overlay.active {
   opacity: 1;
   pointer-events: auto;
-}
-
-h1 {
-  font-size: 1.6rem;
-  padding: 0 10px;
-  text-align: start;
 }
 
 .btn-gradient {
@@ -102,4 +97,28 @@ p {
 
 .fire-protection {
   background-color: var(--red-instaltech);
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --header-height: 116px;
+  }
+
+  p {
+    padding: 10px 20px;
+  }
+
+  .btn-gradient {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --header-height: 150px;
+  }
+
+  .overlay {
+    display: none;
+  }
 }

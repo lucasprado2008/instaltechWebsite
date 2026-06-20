@@ -141,3 +141,45 @@
   padding: 10px 0;
   text-align: center;
 }
+
+@media screen and (min-width: 375px) {
+  .portfolio h2::after {
+    width: 64%;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .portfolio h2::after {
+    width: 56%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio h2 {
+    padding: 15px 20px 0px;
+  }
+
+  .portfolio h2::after {
+    left: 20px;
+    width: 32%;
+  }
+
+  .portfolio-subtitle,
+  .portfolio-card-title {
+    padding: 10px 20px 0px;
+  }
+
+  .portfolio-card {
+    margin: 30px auto;
+    width: 60%;
+  }
+
+  .portfolio-final-title {
+    font-size: 1.3rem;
+  }
+
+  .portfolio-card-services {
+    margin-bottom: 35px;
+    width: 60%
+  }
+}

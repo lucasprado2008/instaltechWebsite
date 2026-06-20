@@ -3,6 +3,22 @@
   flex-direction: column;
 }
 
+h1 {
+  font-size: 1.6rem;
+  padding: 0 10px;
+  text-align: start;
+}
+
+.desktop-text {
+  display: none;
+}
+
+.hero-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
 .card {
   align-self: center;
   background-color: var(--blue-instaltech);
@@ -25,8 +41,8 @@
 }
 
 .card-content-svg {
-  height: 3rem;
-  width: 3rem;
+  height: var(--svg-medium-size);
+  width: var(--svg-medium-size);
 }
 
 .card h2 {
@@ -35,8 +51,127 @@
   text-align: center;
 }
 
+.title-line {
+  position: relative;
+  display: inline-block;
+}
+
+.title-line::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+}
+
+.eletric-article {
+  background-color: var(--blue-eletric);
+}
+
+.eletric-line::after {
+  background-color: #5082aa;
+}
+
+.hydraulic-article {
+  background-color: var(--blue-instaltech);
+}
+
+.hydraulic-line::after {
+  background-color: #0000ff;
+}
+
+.fire-protection-article {
+  background-color: var(--red-instaltech);
+}
+
+.fire-protection-line::after {
+  background-color: rgb(145, 0, 0);
+  left: 20%;
+}
+
 .card p {
   color: #dddddd;
   padding: 10px;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    padding: 0 20px;
+  }
+
+  .card {
+    margin-bottom: 35px;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    margin: 25px 0 75px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    align-items: stretch;
+  }
+
+  h1,
+  .hero p {
+    margin-left: 20px;
+  }
+
+  .hero p {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+
+  .btn-gradient {
+    margin: 0 0 0 45px;
+    font-size: 1.2rem;
+  }
+
+  .desktop-text {
+    display: block;
+    margin-bottom: 45px;
+  }
+
+  .hero-cards {
+    padding: 15px 25px 15px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: stretch;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-img {
+    height: 100%;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .card-content-svg {
+    width: var(--svg-large-size);
+    height: var(--svg-large-size);
+    margin: 20px 0;
+  }
+
+  .card h2 {
+    min-height: 70px;
+    text-align: center;
+  }
+
+  .card p {
+    padding: 10px 0;
+    font-size: 1.3rem;
+    margin: 10px;
+    text-align: center;
+    min-height: 190px;
+  }
 }

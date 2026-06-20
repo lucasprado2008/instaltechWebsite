@@ -75,3 +75,18 @@
   font-weight: 600;
   margin-bottom: 5px;
 }
+
+@media screen and (min-width: 768px) {
+  .mvv-elements {
+    margin: 10px 10px 25px 40px;
+  }
+
+  .mvv-values-element {
+    min-height: 120px;
+    margin: 10px 10px 25px 40px;
+  }
+
+  .mvv-values-element-text h4 {
+    margin-bottom: 20px;
+  }
+}

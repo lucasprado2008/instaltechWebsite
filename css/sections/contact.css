@@ -68,3 +68,10 @@
   vertical-align: middle;
   width: var(--svg-small-size);
 }
+
+@media screen and (min-width: 768px) {
+  .contact-box {
+    min-width: 50%;
+    padding: 10px 30px;
+  }
+}

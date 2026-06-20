@@ -92,3 +92,17 @@
   font-size: 1.2rem;
   font-weight: 700;
 }
+
+@media screen and (min-width: 768px) {
+  .history-text {
+    padding: 10px 35px
+  }
+
+  .history-catchphrase {
+    font-size: 1.2rem;
+  }
+
+  .history-img {
+    margin: 25px auto;
+  }
+}

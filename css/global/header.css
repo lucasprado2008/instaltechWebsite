@@ -18,3 +18,29 @@
   padding-top: 2px;
   padding: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .main-header {
+    padding: 20px;
+  }
+
+  .main-header p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-header {
+    padding: 20px;
+  }
+
+  .main-header img {
+    max-width: 250px;
+    margin-bottom: 5px;
+  }
+
+  .main-header p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+}
