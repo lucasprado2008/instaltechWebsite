@@ -9,6 +9,15 @@ h1 {
   text-align: start;
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-btn {
+  margin: 10px auto;
+}
+
 .desktop-text {
   display: none;
 }
@@ -127,8 +136,12 @@ h1 {
     text-align: justify;
   }
 
+  .hero-btn {
+    width: 80%;
+  }
+
   .btn-gradient {
-    margin: 0 0 0 45px;
+    margin: 0 auto;
     font-size: 1.2rem;
   }
 

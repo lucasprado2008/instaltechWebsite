@@ -90,3 +90,52 @@
     margin-bottom: 20px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .mvv {
+    display: flex;
+    align-items: center;
+  }
+
+  .mvv h2 {
+    padding-left: 30px;
+    text-align: left;
+  }
+
+  .elements-wrapper {
+    width: 30%;
+  }
+
+  .mvv-element-content p {
+    font-size: 1rem;
+  }
+
+  .values-wrapper {
+    border: 2px solid var(--blue-instaltech);
+    border-radius: 20px;
+    width: 65%;
+    height: fit-content;
+    margin: 0 auto;
+  }
+
+  .mvv-values-element {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 0;
+    padding: 30px;
+  }
+
+  .mvv-values-element:nth-child(2n) {
+    border-right: none;
+  }
+
+  .mvv-values-element-text {
+    border: none;
+  }
+
+  .mvv-values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
+  }
+}

@@ -8,9 +8,14 @@
   padding: 10px;
 }
 
+.contact-title-svg {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-showcase-svg {
   height: var(--svg-size);
-  margin: 10px 0;
+  margin: 10px auto;
   width: var(--svg-size);
 }
 
@@ -63,15 +68,60 @@
 }
 
 .contact-whatsapp-svg {
-  height: var(--svg-small-size);
+  height: 2rem;
   margin-right: 5px;
   vertical-align: middle;
-  width: var(--svg-small-size);
+  width: 2rem;
 }
 
 @media screen and (min-width: 768px) {
   .contact-box {
     min-width: 50%;
     padding: 10px 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-showcase {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact-title-svg {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .contact-showcase-svg {
+    margin: 0 25px;
+    width: var(--svg-large-size);
+    height: var(--svg-large-size);
+  }
+
+  .contact-title-svg p {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .contact-ways-box {
+    margin-left: 10%;
+    width: 60%;
+  }
+
+  .contact-showcase-title {
+    margin: 0 25px;
+    font-size: 2rem;
+  }
+
+  .contact-box:nth-of-type(1) .contact-box-svg {
+    align-self: center;
+    width: var(--svg-medium-size);
+    height: var(--svg-medium-size);
+  }
+
+  .contact-box:nth-of-type(2) .contact-box-svg {
+    align-self: center;
+    width: var(--svg-large-size);
+    height: var(--svg-large-size);
   }
 }

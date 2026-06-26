@@ -69,10 +69,12 @@
     transform: none;
     padding: 30px 5px;
     width: auto;
+    top: 0;
   }
 
   .nav ul {
     flex-direction: row;
+    gap:25px;
   }
 
   .nav li {
@@ -102,7 +104,6 @@
 
   .nav a {
     text-decoration: none;
-    padding: 0 15px;
   }
 
   .mvv-full {

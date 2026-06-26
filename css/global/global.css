@@ -32,13 +32,11 @@ body.menu-active {
 .overlay {
   backdrop-filter: blur(4px);
   background-color: rgba(0, 0, 0, 0.5);
-  height: 100vh;
   inset: 0;
   opacity: 0;
   pointer-events: none;
   position: fixed;
   transition: opacity 0.5s ease;
-  width: 100vw;
   z-index: 105;
 }
 
@@ -109,7 +107,7 @@ p {
   }
 
   .btn-gradient {
-    width: 50%;
+    width: 60%;
   }
 }
 

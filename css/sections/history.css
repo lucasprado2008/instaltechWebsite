@@ -95,7 +95,7 @@
 
 @media screen and (min-width: 768px) {
   .history-text {
-    padding: 10px 35px
+    padding: 10px 35px;
   }
 
   .history-catchphrase {
@@ -104,5 +104,61 @@
 
   .history-img {
     margin: 25px auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .history h2 {
+    font-size: 1.5rem;
+    padding-left: 30px;
+    text-align: left;
+  }
+
+  .history-text {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .hline1 {
+    display: flex;
+  }
+
+  .hspace1 {
+    width: 55%;
+  }
+
+  .history-title,
+  .history-text,
+  .history-catchphrase {
+    font-size: 1rem;
+  }
+
+  .hspace2 {
+    align-content: center;
+    justify-content: center;
+    width: 35%;
+  }
+
+  .history-img {
+    margin: 0 10px;
+    width: 90%;
+  }
+
+  .history-start {
+    width: 100%;
+  }
+
+  .history-start-text, .history-elements-content p {
+    font-size: 1rem;
+  }
+
+  .history-elements {
+    width: 90%;
+    justify-content: left;
+  }
+
+  .helements-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
