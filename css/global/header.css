@@ -14,7 +14,7 @@
 
 .main-header p {
   color: rgb(0, 0, 0);
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-top: 2px;
   padding: 0;
 }
@@ -40,7 +40,7 @@
   }
 
   .main-header p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 1px;
   }
 }

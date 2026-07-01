@@ -65,6 +65,12 @@
 
 .history-elements {
   align-items: start;
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, var(--red-instaltech), var(--blue-instaltech))
+      border-box;
+  border-radius: 16px;
+  border: 2px solid transparent;
   display: flex;
   justify-content: center;
   margin: 25px 10px;
@@ -160,5 +166,51 @@
   .helements-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .history h2 {
+    font-size: 2rem;
+  }
+
+  .history-text {
+    font-size: 1.3rem;
+  }
+
+  .history-catchphrase {
+    font-size: 1.3rem;
+  }
+
+  .hspace2 {
+    width: 45%;
+  }
+
+  .history-start-img {
+    max-width: none;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .history-start-text {
+    font-size: 1.2rem;
+  }
+
+  .history-elements {
+    margin: 25px 15px;
+  }
+
+  .history-elements-svg {
+    height: var(--svg-medium-size);
+    width: var(--svg-medium-size);
+  }
+
+  .history-element-title {
+    font-size: 1.4rem;
+  }
+
+  .history-element-content p {
+    font-size: 1.4rem;
   }
 }

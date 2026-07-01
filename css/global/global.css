@@ -58,7 +58,13 @@ body.menu-active {
   padding: 5px;
   text-align: center;
   text-decoration: none;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
   width: 80%;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 p {

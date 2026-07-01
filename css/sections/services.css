@@ -83,7 +83,6 @@
 }
 
 .services-characteristics-title {
-  font-size: 1.2rem;
   padding-bottom: 0;
   padding: 15px;
   text-align: center;
@@ -276,5 +275,62 @@
 
   .services-characteristics-content p {
     font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .services h2 {
+    font-size: 2.5rem;
+  }
+
+  .services-description {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+
+  .services-characteristics-title h3 {
+    font-size: 1.7rem;
+  }
+
+  .services-characteristics-content p {
+    font-size: 1.5rem;
+  }
+
+  .services h3 {
+    font-size: 1.6rem;
+  }
+
+  .services-card-svg {
+    height: var(--svg-medium-size);
+    width: var(--svg-medium-size);
+  }
+
+  .services-card h4{
+    font-size: 1.8rem;
+  }
+
+  .services-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .services-card li {
+    font-size: 1.2rem;
+  }
+
+  .services-title-svg-container img {
+    height: var(--svg-large-size);
+    width: var(--svg-large-size);
+  }
+
+  .services-contact-title {
+    font-size: 1.5rem;
+  }
+
+  .services-contact-text {
+    font-size: 1.4rem;
+  }
+
+  .services .btn-gradient {
+    font-size: 1.5rem;
   }
 }

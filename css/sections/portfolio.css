@@ -270,3 +270,45 @@
     margin: 0 10px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .portfolio h2 {
+    font-size: 2rem;
+  }
+
+  .portfolio-subtitle {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .portfolio-card-title {
+    font-size: 1.6rem;
+  }
+
+  .portfolio-card-svg {
+    height: var(--svg-medium-size);
+    width: var(--svg-medium-size);
+  }
+
+  .portfolio-svg-container h3 {
+    font-size: 1.6rem;
+  }
+
+  .subtitle-container {
+    font-size: 1.3rem
+  }
+
+  .portfolio-final-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  .portfolio-card-services-svg {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .portfolio-services-svg-container p {
+    font-size: 1.1rem;
+  }
+}

@@ -125,3 +125,22 @@
     height: var(--svg-large-size);
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .contact-title-svg p {
+    font-size: 1.8rem;
+  }
+
+  .contact-showcase-title {
+    font-size: 2.2rem;
+  }
+
+  .contact-box h4 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+  }
+
+  .contact-box-content a {
+    font-size: 1.4rem;
+  }
+}

@@ -93,8 +93,8 @@
 
 @media screen and (min-width: 1024px) {
   .mvv {
+    margin-top: 20px;
     display: flex;
-    align-items: center;
   }
 
   .mvv h2 {
@@ -137,5 +137,35 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .mvv {
+    margin-bottom: 20px;
+  }
+  
+  .mvv h2 {
+    font-size: 1.8rem;
+  }
+
+  .mvv-element-content p {
+    font-size: 1.3rem;
+  }
+
+  .mvv-element-content span {
+    font-size: 1.4rem;
+  }
+
+  .mvv h3 {
+    font-size: 1.6rem;
+  }
+
+  .mvv-values-element-text h4 {
+    font-size: 1.3rem;
+  }
+
+  .mvv-values-element-text p {
+    font-size: 1.4rem;
   }
 }
