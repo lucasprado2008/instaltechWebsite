@@ -9,7 +9,8 @@
 }
 
 .nav {
-  background-color: rgb(68, 127, 156);
+  background-color: #447f9c;
+  height: 100vh;
   height: 100dvh;
   padding: 80px 10px 0px 10px;
   position: fixed;
@@ -39,7 +40,7 @@
 }
 
 .nav a {
-  color: rgb(22, 22, 22);
+  color: #161616;
 }
 
 .mvv-short {
@@ -74,16 +75,18 @@
 
   .nav ul {
     flex-direction: row;
-    gap:25px;
+    gap: 25px;
   }
 
-  .nav li {
-    font-size: 1.1rem;
+  .nav a {
+    display: inline-block;
+    font-size: 1.2rem;
     margin-bottom: 0;
     position: relative;
+    text-decoration: none;
   }
 
-  .nav li::after {
+  .nav a::after {
     background: var(--blue-instaltech);
     bottom: 0;
     content: "";
@@ -94,16 +97,19 @@
     width: 0%;
   }
 
-  .nav li:hover {
+  .nav a:focus-visible {
+    outline: 2px solid var(--blue-instaltech);
+    outline-offset: 4px;
+  }
+
+  .nav a:hover,
+  .nav a:focus-visible {
     transform: scale(1.2);
   }
 
-  .nav li:hover::after {
+  .nav a:hover::after,
+  .nav a:focus-visible::after {
     width: 80%;
-  }
-
-  .nav a {
-    text-decoration: none;
   }
 
   .mvv-full {

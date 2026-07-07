@@ -16,11 +16,21 @@ function toggleMenu() {
 }
 
 links.forEach((link) => {
-  link.addEventListener("click", (e) => {
+  link.addEventListener("click", () => {
     if (window.innerWidth < 1024) {
       toggleMenu();
     }
   });
 });
-document.querySelector(".btn-menu").addEventListener("click", toggleMenu);
-document.querySelector(".overlay").addEventListener("click", toggleMenu);
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth >= 1024) {
+    document.body.classList.remove("menu-active");
+    nav.classList.remove("active");
+    overlay.classList.remove("active");
+    menuBtn.setAttribute("aria-expanded", "false");
+  }
+});
+
+menuBtn.addEventListener("click", toggleMenu);
+overlay.addEventListener("click", toggleMenu);

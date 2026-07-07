@@ -30,7 +30,15 @@
 
     <link rel="canonical" href="https://www.instaltechbr.com" />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/global/global.css" />
+    <link rel="stylesheet" href="css/global/header.css" />
+    <link rel="stylesheet" href="css/global/nav.css" />
+    <link rel="stylesheet" href="css/sections/hero.css" />
+    <link rel="stylesheet" href="css/sections/services.css" />
+    <link rel="stylesheet" href="css/sections/portfolio.css" />
+    <link rel="stylesheet" href="css/sections/history.css" />
+    <link rel="stylesheet" href="css/sections/mvv.css" />
+    <link rel="stylesheet" href="css/sections/contact.css" />
 
     <link rel="icon" href="assets/icons/favicon.ico" sizes="any" />
     <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
@@ -65,6 +73,7 @@
       aria-label="Abrir menu"
       aria-expanded="false"
       aria-controls="menu"
+      type="button"
     >
       ☰
     </button>
@@ -135,7 +144,7 @@
         </div>
 
         <div class="hero-cards">
-          <article class="card card-blue eletric-article">
+          <article class="card card-blue theme-electric">
             <picture>
               <source
                 media="(min-width: 768px)"
@@ -145,17 +154,17 @@
                 class="card-img"
                 src="assets/images/img_eletrica.jpeg"
                 alt="Imagem card hero elétrica"
-                loading="lazy"
+                fetchpriority="high"
               />
             </picture>
 
             <div class="card-content">
               <img
                 class="card-content-svg"
-                src="assets/icons/instaltech-eletric-icon.svg"
+                src="assets/icons/instaltech-electric-icon.svg"
                 alt="Ícone de raio"
               />
-              <h2><span class="title-line eletric-line">Elétrica</span></h2>
+              <h2><span class="title-line electric-line">Elétrica</span></h2>
               <p>
                 Instalações elétricas residenciais, comerciais e industriais com
                 segurança e eficiência.
@@ -163,7 +172,7 @@
             </div>
           </article>
 
-          <article class="card card-red hydraulic-article">
+          <article class="card card-blue theme-hydraulic">
             <picture>
               <source
                 media="(min-width: 768px)"
@@ -173,7 +182,6 @@
                 class="card-img"
                 src="assets/images/img_hidraulica.jpeg"
                 alt="Imagem card hero hidráulica"
-                loading="lazy"
               />
             </picture>
 
@@ -191,7 +199,7 @@
             </div>
           </article>
 
-          <article class="card card-blue fire-protection-article">
+          <article class="card card-red theme-fire-protection">
             <picture>
               <source
                 media="(min-width: 768px)"
@@ -243,11 +251,12 @@
           </h3>
 
           <article class="services-card card-blue">
-            <header class="electric">
+            <header class="theme-electric">
               <img
                 class="services-card-svg"
-                src="assets/icons/instaltech-eletric-icon.svg"
+                src="assets/icons/instaltech-electric-icon.svg"
                 alt="Ícone de elétrica"
+                loading="lazy"
               />
               <h4>Elétrica</h4>
               <p class="services-subtitle">
@@ -273,21 +282,31 @@
               </ul>
             </div>
 
-            <figure>
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="assets/images/card_servico_eletrica_v.webp"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="assets/images/card_servico_eletrica_h900x600.webp"
+              />
               <img
                 class="services-card-img"
-                src="assets/images/instaltech-placeholder.png"
-                alt=""
+                src="assets/images/card_servico_eletrica_h.webp"
+                alt="Serviço de instalação elétrica"
+                loading="lazy"
               />
-            </figure>
+            </picture>
           </article>
 
           <article class="services-card card-red">
-            <header class="hydraulic">
+            <header class="theme-hydraulic">
               <img
                 class="services-card-svg"
                 src="assets/icons/instaltech-waterdrop-icon.svg"
                 alt="Ícone de água"
+                loading="lazy"
               />
               <h4>Hidráulica</h4>
               <p class="services-subtitle">
@@ -307,21 +326,31 @@
               </ul>
             </div>
 
-            <figure>
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="assets/images/card_servico_hidraulica_v.webp"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="assets/images/card_servico_hidraulica_h900x600.webp"
+              />
               <img
                 class="services-card-img"
-                src="assets/images/instaltech-placeholder.png"
-                alt=""
+                src="assets/images/card_servico_hidraulica_h.webp"
+                alt="Serviço de instalação hidráulica"
+                loading="lazy"
               />
-            </figure>
+            </picture>
           </article>
 
           <article class="services-card card-blue">
-            <header class="fire-protection">
+            <header class="theme-fire-protection">
               <img
                 class="services-card-svg"
                 src="assets/icons/instaltech-fire-icon.svg"
                 alt="Ícone de combate a incêndio"
+                loading="lazy"
               />
               <h4>Combate a incêndio</h4>
               <p class="services-subtitle">
@@ -342,13 +371,22 @@
               </ul>
             </div>
 
-            <figure>
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="assets/images/card_servico_incendio_v.webp"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="assets/images/card_servico_incendio_h900x600.webp"
+              />
               <img
                 class="services-card-img"
-                src="assets/images/instaltech-placeholder.png"
-                alt=""
+                src="assets/images/card_servico_incendio_h.webp"
+                alt="Serviço de instalação de sistema de combate a incêndio"
+                loading="lazy"
               />
-            </figure>
+            </picture>
           </article>
         </div>
 
@@ -365,6 +403,7 @@
               class="services-characteristics-svg"
               src="assets/icons/instaltech-security-icon.svg"
               alt="Ícone de segurança"
+              loading="lazy"
             />
             <div class="services-characteristics-content">
               <h4>Soluções Integradas</h4>
@@ -380,6 +419,7 @@
               class="services-characteristics-svg"
               src="assets/icons/instaltech-group-icon.svg"
               alt="Ícone de equipe"
+              loading="lazy"
             />
             <div class="services-characteristics-content">
               <h4>Equipe Especializada</h4>
@@ -395,6 +435,7 @@
               class="services-characteristics-svg"
               src="assets/icons/instaltech-clipboard-icon.svg"
               alt="Ícone de prancheta"
+              loading="lazy"
             />
             <div class="services-characteristics-content">
               <h4>Normas e Conformidade</h4>
@@ -409,6 +450,7 @@
               class="services-characteristics-svg"
               src="assets/icons/instaltech-communication-icon.svg"
               alt="Ícone de comunicação"
+              loading="lazy"
             />
             <div class="services-characteristics-content">
               <h4>Suporte e Manutenção</h4>
@@ -425,6 +467,7 @@
             <img
               src="assets/icons/instaltech-worker-icon.svg"
               alt="Ícone de trabalhador"
+              loading="lazy"
             />
             <p class="services-contact-title">
               Precisa de uma solução personalizada?
@@ -459,19 +502,20 @@
           </div>
 
           <div class="pcards-wrapper">
-            <h4 class="portfolio-card-title">
+            <h3 class="portfolio-card-title">
               Serviços que garantem eficiência, segurança e conformidade
-            </h4>
+            </h3>
 
             <article class="portfolio-card">
-              <header class="portfolio-card1 electric">
+              <header class="portfolio-card1 theme-electric">
                 <div class="portfolio-svg-container">
                   <img
                     class="portfolio-card-svg"
-                    src="assets/icons/instaltech-eletric-icon.svg"
+                    src="assets/icons/instaltech-electric-icon.svg"
                     alt="Ícone de raio"
+                    loading="lazy"
                   />
-                  <h3>Elétrica</h3>
+                  <h4>Elétrica</h4>
                 </div>
                 <p class="subtitle-container">
                   Instalações elétricas seguras e eficientes.
@@ -483,6 +527,7 @@
                   class="portfolio-card-img"
                   src="assets/images/instaltech-placeholder.png"
                   alt="Imagem Principal Elétrica"
+                  loading="lazy"
                 />
               </div>
 
@@ -491,6 +536,7 @@
                   class="portfolio-card-img"
                   src="assets/images/instaltech-placeholder.png"
                   alt="Imagem Complementar Elétrica"
+                  loading="lazy"
                 />
               </div>
 
@@ -499,19 +545,21 @@
                   class="portfolio-card-img"
                   src="assets/images/instaltech-placeholder.png"
                   alt="Imagem Complementar Elétrica"
+                  loading="lazy"
                 />
               </div>
             </article>
 
             <article class="portfolio-card">
-              <header class="portfolio-card1 hydraulic">
+              <header class="portfolio-card1 theme-hydraulic">
                 <div class="portfolio-svg-container">
                   <img
                     class="portfolio-card-svg"
                     src="assets/icons/instaltech-waterdrop-icon.svg"
                     alt="Ícone de água"
+                    loading="lazy"
                   />
-                  <h3>Hidráulica</h3>
+                  <h4>Hidráulica</h4>
                 </div>
                 <p class="subtitle-container">
                   Soluções hidráulicas com qualidade e durabilidade.
@@ -523,6 +571,7 @@
                   class="portfolio-card-img"
                   src="assets/images/instaltech-placeholder.png"
                   alt="Imagem Principal Hidráulica"
+                  loading="lazy"
                 />
               </div>
 
@@ -531,6 +580,7 @@
                   class="portfolio-card-img"
                   src="assets/images/instaltech-placeholder.png"
                   alt="Imagem Complementar Hidráulica"
+                  loading="lazy"
                 />
               </div>
 
@@ -539,19 +589,21 @@
                   class="portfolio-card-img"
                   src="assets/images/instaltech-placeholder.png"
                   alt="Imagem Complementar Hidráulica"
+                  loading="lazy"
                 />
               </div>
             </article>
 
             <article class="portfolio-card">
-              <header class="portfolio-card1 fire-protection">
+              <header class="portfolio-card1 theme-fire-protection">
                 <div class="portfolio-svg-container">
                   <img
                     class="portfolio-card-svg"
                     src="assets/icons/instaltech-fire-icon.svg"
                     alt="Ícone de fogo"
+                    loading="lazy"
                   />
-                  <h3>Combate a Incêndio</h3>
+                  <h4>Combate a Incêndio</h4>
                 </div>
                 <p class="subtitle-container">
                   Sistemas de prevenção e combate a incêndios para proteger
@@ -564,6 +616,7 @@
                   class="portfolio-card-img"
                   src="assets/images/instaltech-placeholder.png"
                   alt="Imagem Principal Combate a Incêndio"
+                  loading="lazy"
                 />
               </div>
 
@@ -572,6 +625,7 @@
                   class="portfolio-card-img"
                   src="assets/images/instaltech-placeholder.png"
                   alt="Imagem Complementar Combate a Incêndio"
+                  loading="lazy"
                 />
               </div>
 
@@ -580,6 +634,7 @@
                   class="portfolio-card-img"
                   src="assets/images/instaltech-placeholder.png"
                   alt="Imagem Complementar Combate a Incêndio"
+                  loading="lazy"
                 />
               </div>
             </article>
@@ -590,12 +645,13 @@
           Projetos que entregam segurança e confiança.
         </h3>
 
-        <div class="pcardsse-wrapper">
+        <div class="pservices-wrapper">
           <div class="portfolio-card-services">
             <img
               class="portfolio-card-services-img"
-              src="assets/images/instaltech-placeholder.png"
+              src="assets/images/card_edificio_residencial.webp"
               alt="Imagem Edifício Residencial"
+              loading="lazy"
             />
             <div class="portfolio-services-svg-container">
               <img
@@ -610,14 +666,16 @@
           <div class="portfolio-card-services">
             <img
               class="portfolio-card-services-img"
-              src="assets/images/instaltech-placeholder.png"
+              src="assets/images/card_shopping_loja.webp"
               alt="Imagem Shopping"
+              loading="lazy"
             />
             <div class="portfolio-services-svg-container">
               <img
                 class="portfolio-card-services-svg"
                 src="assets/icons/instaltech-cart-icon.svg"
                 alt="Ícone Loja"
+                loading="lazy"
               />
               <p>Shoppings e lojas</p>
             </div>
@@ -626,14 +684,16 @@
           <div class="portfolio-card-services">
             <img
               class="portfolio-card-services-img"
-              src="assets/images/instaltech-placeholder.png"
+              src="assets/images/card_industria.webp"
               alt="Imagem Indústria"
+              loading="lazy"
             />
             <div class="portfolio-services-svg-container">
               <img
                 class="portfolio-card-services-svg"
                 src="assets/icons/instaltech-factory-icon.svg"
                 alt="Ícone Indústria"
+                loading="lazy"
               />
               <p>Indústrias</p>
             </div>
@@ -642,14 +702,16 @@
           <div class="portfolio-card-services">
             <img
               class="portfolio-card-services-img"
-              src="assets/images/instaltech-placeholder.png"
+              src="assets/images/card_hospital.webp"
               alt="Imagem Hospital"
+              loading="lazy"
             />
             <div class="portfolio-services-svg-container">
               <img
                 class="portfolio-card-services-svg"
                 src="assets/icons/instaltech-hospital-icon.svg"
                 alt="Ícone Hospital"
+                loading="lazy"
               />
               <p>Hospitais</p>
             </div>
@@ -658,14 +720,16 @@
           <div class="portfolio-card-services">
             <img
               class="portfolio-card-services-img"
-              src="assets/images/instaltech-placeholder.png"
+              src="assets/images/card_empresa.webp"
               alt="Imagem Empresa"
+              loading="lazy"
             />
             <div class="portfolio-services-svg-container">
               <img
                 class="portfolio-card-services-svg"
                 src="assets/icons/instaltech-suitcase-icon.svg"
                 alt="Ícone Mala"
+                loading="lazy"
               />
               <p>Empresas e comércios</p>
             </div>
@@ -715,8 +779,9 @@
           <div class="hspace2">
             <img
               class="history-img"
-              src="assets/images/instaltech-placeholder.png"
-              alt="Imagem história instaltech"
+              src="assets/images/instaltech-equipe.webp"
+              alt="Imagem equipe instaltech"
+              loading="lazy"
             />
           </div>
         </div>
@@ -727,12 +792,13 @@
               class="history-start-img"
               src="assets/icons/instaltech-calendar-icon.svg"
               alt="Ícone de calendário"
+              loading="lazy"
             />
             <div class="history-start-content">
               <p class="history-start-text">
                 <span class="history-start-text-bold">Desde</span
                 ><span class="red-text history-start-year">2024</span
-                ><span class="blue-text history-start-blue"
+                ><span class="blue-text"
                   >O início de tudo</span
                 >
                 Fundada em 2024, a Instaltech surgiu da união de profissionais
@@ -747,13 +813,14 @@
               class="history-elements-svg"
               src="assets/icons/instaltech-handshake-icon.svg"
               alt="Imagem de aperto de mão"
+              loading="lazy"
             />
             <div class="history-element-content">
-              <p>
+              <h3>
                 <span class="history-element-title">Tecnologia e inovação</span>
                 Conectamos tecnologia, segurança e eficiência para gerar valor e
                 tranquilidade em cada projeto executado.
-              </p>
+              </h3>
             </div>
           </div>
 
@@ -762,13 +829,14 @@
               class="history-elements-svg"
               src="assets/icons/instaltech-group-icon.svg"
               alt="Imagem de equipe"
+              loading="lazy"
             />
             <div class="history-element-content">
-              <p>
+              <h3>
                 <span class="history-element-title">Equipe qualificada</span>
                 Profissionais capacitados, comprometidos com a excelência e a
                 melhoria contínua.
-              </p>
+              </h3>
             </div>
           </div>
 
@@ -777,15 +845,16 @@
               class="history-elements-svg"
               src="assets/icons/instaltech-security-icon.svg"
               alt="Imagem de escudo"
+              loading="lazy"
             />
             <div class="history-element-content">
-              <p>
+              <h3>
                 <span class="history-element-title"
                   >Segurança e conformidade</span
                 >
                 Rigor técnico e total conformidade com as normas para garantir a
                 segurança de pessoas e patrimônios.
-              </p>
+              </h3>
             </div>
           </div>
 
@@ -794,15 +863,16 @@
               class="history-elements-svg"
               src="assets/icons/instaltech-star-icon.svg"
               alt="Imagem de estrela"
+              loading="lazy"
             />
             <div class="history-element-content">
-              <p>
+              <h3>
                 <span class="history-element-title"
                   >Comprometimento com os resultados</span
                 >
                 Transparência, ética e foco em resultados que geram confiança e
                 fortalecem parcerias duradouras.
-              </p>
+              </h3>
             </div>
           </div>
         </div>
@@ -818,7 +888,8 @@
             <img
               class="mvv-elements-svg"
               src="assets/icons/instaltech-target-icon.svg"
-              alt="Imagem de olho"
+              alt="Ícone de alvo"
+              loading="lazy"
             />
             <div class="mvv-element-content">
               <p>
@@ -834,7 +905,8 @@
             <img
               class="mvv-elements-svg"
               src="assets/icons/instaltech-eye-icon.svg"
-              alt="Imagem de olho"
+              alt="Ícone de olho"
+              loading="lazy"
             />
             <div class="mvv-element-content">
               <p>
@@ -850,7 +922,8 @@
             <img
               class="mvv-elements-svg"
               src="assets/icons/instaltech-goal-icon.svg"
-              alt="Imagem de olho"
+              alt="Ícone de montanha"
+              loading="lazy"
             />
             <div class="mvv-element-content">
               <p>
@@ -870,6 +943,7 @@
                 class="mvv-values-svg"
                 src="assets/icons/instaltech-security-icon.svg"
                 alt="Imagem de escudo"
+                loading="lazy"
               />
 
               <div class="mvv-values-element-text">
@@ -887,6 +961,7 @@
                 class="mvv-values-svg"
                 src="assets/icons/instaltech-handshake-icon.svg"
                 alt="Imagem de aperto de mão"
+                loading="lazy"
               />
 
               <div class="mvv-values-element-text">
@@ -904,6 +979,7 @@
                 class="mvv-values-svg"
                 src="assets/icons/instaltech-group-icon.svg"
                 alt="Imagem de grupo"
+                loading="lazy"
               />
 
               <div class="mvv-values-element-text">
@@ -921,6 +997,7 @@
                 class="mvv-values-svg"
                 src="assets/icons/instaltech-medal-icon.svg"
                 alt="Imagem de medalha"
+                loading="lazy"
               />
 
               <div class="mvv-values-element-text">
@@ -938,6 +1015,7 @@
                 class="mvv-values-svg"
                 src="assets/icons/instaltech-lampidea-icon.svg"
                 alt="Imagem de lâmpada"
+                loading="lazy"
               />
 
               <div class="mvv-values-element-text">
@@ -955,6 +1033,7 @@
                 class="mvv-values-svg"
                 src="assets/icons/instaltech-clipboard-icon.svg"
                 alt="Imagem de prancheta"
+                loading="lazy"
               />
 
               <div class="mvv-values-element-text">
@@ -977,6 +1056,7 @@
               class="contact-showcase-svg"
               src="assets/icons/instaltech-chat-icon.svg"
               alt="Ícone de chat"
+              loading="lazy"
             />
 
             <p>
@@ -985,20 +1065,21 @@
             </p>
           </div>
 
-          <div class="contact-ways-box">
-            <h4 class="contact-showcase-title">
+          <div class="contact-ways-wrapper">
+            <h2>
               Fale <span class="red-text">conosco!</span>
-            </h4>
+            </h2>
 
             <div class="contact-box">
               <img
                 class="contact-box-svg"
                 src="assets/icons/instaltech-mail-icon.svg"
                 alt="Ícone de e-mail"
+                loading="lazy"
               />
 
               <div class="contact-box-content">
-                <h4>Nosso e-mail</h4>
+                <h3>Nosso e-mail</h3>
                 <a
                   class="contact-email-link"
                   href="mailto:adm@instaltechbr.com?subject=Solicitação%20de%20Orçamento&body=Olá!%0A%0AVisitei%20o%20site%20da%20InstalTech%20e%20gostaria%20de%20solicitar%20um%20orçamento.%0A%0ANome:%20%0ATelefone:%20%0ADescrição%20do%20serviço:%20"
@@ -1012,10 +1093,11 @@
                 class="contact-box-svg"
                 src="assets/icons/instaltech-phone-icon.svg"
                 alt="Ícone de telefone"
+                loading="lazy"
               />
 
               <div class="contact-box-content">
-                <h4>Telefones para contato</h4>
+                <h3>Telefones para contato</h3>
 
                 <a
                   class="contact-whatsapp-link"
@@ -1026,6 +1108,7 @@
                     class="contact-whatsapp-svg"
                     src="assets/icons/instaltech-redphone-icon.svg"
                     alt="Ícone de telefone vermelho"
+                    loading="lazy"
                   />+55 11 98685-0965</a
                 >
 
@@ -1050,6 +1133,7 @@
                     class="contact-whatsapp-svg"
                     src="assets/icons/instaltech-redphone-icon.svg"
                     alt="Ícone de telefone vermelho"
+                    loading="lazy"
                   />+55 11 98346-7793</a
                 >
               </div>

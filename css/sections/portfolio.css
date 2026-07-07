@@ -16,13 +16,13 @@
 
 .portfolio-subtitle,
 .portfolio-card-title {
-  color: rgb(45, 45, 45);
+  color: #2d2d2d;
   font-size: 1.1rem;
   padding: 10px 10px 0px;
 }
 
 .portfolio-card {
-  border: 1px solid;
+  border: 1px solid #000;
   display: grid;
   gap: 0px;
   grid-template-columns: repeat(4, 1fr);
@@ -52,12 +52,12 @@
   width: var(--svg-size);
 }
 
-.portfolio-svg-container h3 {
+.portfolio-svg-container h4 {
   font-size: 1.3rem;
 }
 
 .subtitle-container {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   display: inline-block;
   margin-top: 15px;
   text-align: center;
@@ -109,7 +109,7 @@
 .portfolio-card-services {
   align-items: center;
   border-radius: 5px;
-  border: solid 1px var(--blue-instaltech);
+  border: 1px solid var(--blue-instaltech);
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -204,7 +204,7 @@
     gap: 10px;
   }
 
-  .pcardsse-wrapper {
+  .pservices-wrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
@@ -304,8 +304,8 @@
   }
 
   .portfolio-card-services-svg {
-    height: 2rem;
-    width: 2rem;
+    height: var(--svg-size);
+    width: var(--svg-size);
   }
 
   .portfolio-services-svg-container p {

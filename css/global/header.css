@@ -13,19 +13,14 @@
 }
 
 .main-header p {
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 1rem;
-  padding-top: 2px;
-  padding: 0;
+  padding: 2px 0 0 0;
 }
 
 @media screen and (min-width: 768px) {
   .main-header {
     padding: 20px;
-  }
-
-  .main-header p {
-    font-size: 1rem;
   }
 }
 

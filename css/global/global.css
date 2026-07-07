@@ -1,19 +1,22 @@
 :root {
-  --blue-eletric: rgb(0, 32, 175);
-  --blue-instaltech: rgb(12, 84, 140);
-  --header-height: 93px;
+  --blue-electric: #0020af;
+  --blue-instaltech: #0c548c;
+  --electric-line: #3e7cb9;
+  --fire-protection-line: #b40000;
+  --header-height: 110px;
+  --hydraulic-line: #409fb9;
   --large-gap: 2rem;
-  --medium-gap: 1rem;
-  --red-instaltech: rgb(190, 40, 40);
-  --small-gap: 0.5rem;
+  --red-instaltech: #be2828;
   --svg-large-size: 4rem;
   --svg-medium-size: 3rem;
   --svg-size: 2.5rem;
   --svg-small-size: 1.5rem;
-  --text-color: rgb(40, 40, 40);
+  --text-color: #282828;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
@@ -31,7 +34,7 @@ body.menu-active {
 
 .overlay {
   backdrop-filter: blur(4px);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #00000080;
   inset: 0;
   opacity: 0;
   pointer-events: none;
@@ -58,27 +61,28 @@ body.menu-active {
   padding: 5px;
   text-align: center;
   text-decoration: none;
-  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  transition:
+    transform 0.5s ease,
+    box-shadow 0.5s ease;
   width: 80%;
 }
 
 .btn-gradient:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px #00000026;
 }
 
 p {
   color: var(--text-color);
   font-size: 1.2rem;
-  padding: 10px;
 }
 
 .card-blue {
-  border: 1px solid var(--blue-instaltech);
+  border: 1px solid var(--hydraulic-line);
 }
 
 .card-red {
-  border: 1px solid var(--red-instaltech);
+  border: 1px solid var(--fire-protection-line);
 }
 
 .blue-text {
@@ -91,15 +95,15 @@ p {
   font-weight: 600;
 }
 
-.electric {
-  background-color: var(--blue-eletric);
+.theme-electric {
+  background-color: var(--blue-electric);
 }
 
-.hydraulic {
+.theme-hydraulic {
   background-color: var(--blue-instaltech);
 }
 
-.fire-protection {
+.theme-fire-protection {
   background-color: var(--red-instaltech);
 }
 

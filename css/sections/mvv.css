@@ -35,7 +35,6 @@
 }
 
 .mvv h3 {
-  display: block;
   font-size: 1.4rem;
   font-weight: 700;
   margin: 40px 0px 15px 0px;
@@ -52,7 +51,6 @@
 }
 
 .mvv-values-svg {
-  display: flex;
   height: var(--svg-medium-size);
   width: var(--svg-medium-size);
 }
@@ -70,7 +68,6 @@
 }
 
 .mvv-values-element-text h4 {
-  display: block;
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 5px;
@@ -159,6 +156,11 @@
 
   .mvv h3 {
     font-size: 1.6rem;
+  }
+
+  .mvv-values-svg {
+    height: var(--svg-large-size);
+    width: var(--svg-large-size);
   }
 
   .mvv-values-element-text h4 {
