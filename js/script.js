@@ -2,6 +2,8 @@ const links = document.querySelectorAll(".nav a");
 const menuBtn = document.querySelector(".btn-menu");
 const nav = document.querySelector(".nav");
 const overlay = document.querySelector(".overlay");
+const year = new Date().getFullYear();
+document.getElementById("year").textContent = year;
 
 function toggleMenu() {
   document.body.classList.toggle("menu-active");
