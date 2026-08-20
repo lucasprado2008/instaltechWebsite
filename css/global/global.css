@@ -85,6 +85,20 @@ p {
   border: 1px solid var(--fire-protection-line);
 }
 
+.brand-name {
+  background: linear-gradient(
+    to right,
+    var(--blue-instaltech) 0%,
+    var(--blue-instaltech) 55%,
+    var(--red-instaltech) 55%,
+    var(--red-instaltech) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+
 .blue-text {
   color: var(--blue-instaltech);
   font-weight: 600;
